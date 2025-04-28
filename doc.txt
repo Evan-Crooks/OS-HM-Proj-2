@@ -1,0 +1,11 @@
+first we input the processes and resource counts n and m.
+then we input the amount of each resource and store in a vector
+
+we then input each of allocation and max matrix and strore them in vectors of vectors
+then we calulate the need matrix
+
+then we enter bankers algorithm
+iterate through incomplete processes until we find one we can complete with the available resources
+complete it then free its resources. 
+repeat until all are complete or if can't complete any jobs system is unsafe
+when complete print order completed.
